@@ -1,34 +1,34 @@
-#include "plugin/MyPlugin.h"
+#include "Entry.h"
 
 #include <memory>
 
 #include "ll/api/plugin/NativePlugin.h"
 #include "ll/api/plugin/RegisterHelper.h"
 
-namespace my_plugin {
+namespace vid {
 
-static std::unique_ptr<MyPlugin> instance;
+static std::unique_ptr<entry> instance;
 
-MyPlugin& MyPlugin::getInstance() { return *instance; }
+entry& entry::getInstance() { return *instance; }
 
-bool MyPlugin::load() {
+bool entry::load() {
     getSelf().getLogger().info("Loading...");
     // Code for loading the plugin goes here.
     return true;
 }
 
-bool MyPlugin::enable() {
+bool entry::enable() {
     getSelf().getLogger().info("Enabling...");
     // Code for enabling the plugin goes here.
     return true;
 }
 
-bool MyPlugin::disable() {
+bool entry::disable() {
     getSelf().getLogger().info("Disabling...");
     // Code for disabling the plugin goes here.
     return true;
 }
 
-} // namespace my_plugin
+} // namespace vid
 
-LL_REGISTER_PLUGIN(my_plugin::MyPlugin, my_plugin::instance);
+LL_REGISTER_PLUGIN(vid::entry, vid::instance);

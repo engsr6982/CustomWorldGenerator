@@ -1,19 +1,19 @@
 
-#include "mConfig.h"
+#include "Config.h"
 
-#include "../voidworlds.h"
+#include "Entry/Entry.h"
 
 #include <filesystem>
 #include <fstream>
 #include <ll/api/Config.h>
 
 
-namespace mConfig {
+namespace vid::config {
 
-mConfig::ConfigStructs mConfig::cfg;
+config::ConfigStructs config::cfg;
 
-bool mConfig::load() {
-    auto& mSelf          = voidworlds::voidworlds::getInstance().getSelf();
+bool config::load() {
+    auto& mSelf          = vid::entry::getInstance().getSelf();
     auto  configFilePath = mSelf.getPluginDir() / "config.json";
     auto& logger         = mSelf.getLogger();
 
@@ -32,4 +32,4 @@ bool mConfig::load() {
     return true;
 }
 
-} // namespace mConfig
+} // namespace config

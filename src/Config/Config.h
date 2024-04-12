@@ -1,4 +1,4 @@
-namespace mConfig {
+namespace vid::config {
 
 struct ConfigStructs {
     int version = 6;
@@ -43,7 +43,6 @@ struct ConfigStructs {
         bool WoodlandMansion       = false; // 林地府邸
     } structure;
 
-    // 不知道是什么东西
     struct LevelGens {
         bool Iceberg = false; // 冰山
         int  Fossil  = 2;     // 化石
