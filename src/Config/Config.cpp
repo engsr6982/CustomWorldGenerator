@@ -32,4 +32,4 @@ bool config::load() {
     return true;
 }
 
-} // namespace config
+} // namespace vid::config

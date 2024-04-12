@@ -53,4 +53,4 @@ extern ConfigStructs cfg;
 
 bool load();
 
-} // namespace mConfig
+} // namespace vid::config
