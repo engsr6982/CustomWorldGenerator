@@ -14,7 +14,7 @@
             "world"
         ]
     },
-    "asset_url": "github.com/engsr6982/Void-Worlds",
+    "asset_url": "https://github.com/engsr6982/Void-Worlds/releases/download/v1.0.0/Void-Worlds-windows-x64.zip",
     "prerequisites": {
         "github.com/LiteLDev/LeviLamina": "0.10.x"
     },
