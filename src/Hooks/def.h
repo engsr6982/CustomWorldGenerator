@@ -1,6 +1,6 @@
 // plugin
-#include "./voidworlds.h"
-#include "../config/mConfig.h"
+#include "Entry/Entry.h"
+#include "Config/Config.h"
 
 // ll
 #include <ll/api/memory/Hook.h>
@@ -20,4 +20,4 @@
 // all define
 #define ENABLE_VIRTUAL_FAKESYMBOL_RANDOM = 1
 #define mv                               std::move
-#define cfg                              mConfig::cfg
+#define cfg                              vid::config::cfg

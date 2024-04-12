@@ -12,8 +12,14 @@ static std::unique_ptr<entry> instance;
 entry& entry::getInstance() { return *instance; }
 
 bool entry::load() {
-    getSelf().getLogger().info("Loading...");
     // Code for loading the plugin goes here.
+    auto& logger = getSelf().getLogger();
+
+    logger.info("Void-Worlds loding....");
+    logger.info("Author: PPOUI");
+    logger.info("Version: 1.0.0");
+
+    vid::config::load();
     return true;
 }
 
