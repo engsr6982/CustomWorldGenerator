@@ -1,25 +1,28 @@
 {
     "format_version": 2,
-    "tooth": "my-plugin",
-    "version": "0.0.0",
+    "tooth": "Void-Worlds",
+    "version": "1.0.0",
     "info": {
-        "name": "My Plugin Name",
-        "description": "My Plugin Description",
-        "author": "My Name",
+        "name": "Void-Worlds",
+        "description": "可自定义的世界(虚空)生成器",
+        "author": "engsr6982",
         "tags": [
             "levilamina",
-            "plugin"
+            "plugin",
+            "void",
+            "void-worlds",
+            "world"
         ]
     },
-    "asset_url": "My Asset Url",
+    "asset_url": "github.com/engsr6982/Void-Worlds",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "My LeviLamina Dependency Version"
+        "github.com/LiteLDev/LeviLamina": "0.10.x"
     },
     "files": {
         "place": [
             {
-                "src": "my-plugin/*",
-                "dest": "plugins/my-plugin/"
+                "src": "Void-Worlds*",
+                "dest": "plugins/Void-Worlds/"
             }
         ]
     }
