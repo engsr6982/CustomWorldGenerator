@@ -6,7 +6,7 @@
 #include "ll/api/plugin/RegisterHelper.h"
 
 // proj
-#inclide "Config/Config.h"
+#include "Config/Config.h"
 
 namespace vid {
 
