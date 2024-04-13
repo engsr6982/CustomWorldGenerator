@@ -5,6 +5,9 @@
 #include "ll/api/plugin/NativePlugin.h"
 #include "ll/api/plugin/RegisterHelper.h"
 
+// proj
+#inclide "Config/Config.h"
+
 namespace vid {
 
 static std::unique_ptr<entry> instance;
