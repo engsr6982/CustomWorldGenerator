@@ -1,4 +1,4 @@
-namespace vid::config {
+namespace cwg::config {
 
 struct ConfigStructs {
     int version = 6;
@@ -53,4 +53,4 @@ extern ConfigStructs cfg;
 
 bool load();
 
-} // namespace vid::config
+} // namespace cwg::config

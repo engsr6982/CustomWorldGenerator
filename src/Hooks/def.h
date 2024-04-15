@@ -20,4 +20,4 @@
 // all define
 #define ENABLE_VIRTUAL_FAKESYMBOL_RANDOM = 1
 #define mv                               std::move
-#define cfg                              vid::config::cfg
+#define cfg                              cwg::config::cfg

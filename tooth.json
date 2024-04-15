@@ -1,28 +1,29 @@
 {
     "format_version": 2,
-    "tooth": "github.com/engsr6982/Void-Worlds",
-    "version": "1.0.1",
+    "tooth": "github.com/engsr6982/CustomWorldGenerator",
+    "version": "1.1.0",
     "info": {
-        "name": "Void-Worlds",
-        "description": "可自定义的世界(虚空)生成器",
+        "name": "CustomWorldGenerator",
+        "description": "自定义世界生成器",
         "author": "engsr6982",
         "tags": [
             "levilamina",
             "plugin",
-            "void",
-            "void-worlds",
+            "custom",
+            "CustomWorldGenerator",
+            "generator",
             "world"
         ]
     },
-    "asset_url": "https://github.com/engsr6982/Void-Worlds/releases/download/v1.0.1/Void-Worlds-windows-x64.zip",
+    "asset_url": "https://github.com/engsr6982/CustomWorldGenerator/releases/download/v1.1.0/CustomWorldGenerator-windows-x64.zip",
     "prerequisites": {
         "github.com/LiteLDev/LeviLamina": "0.11.x"
     },
     "files": {
         "place": [
             {
-                "src": "Void-Worlds*",
-                "dest": "plugins/Void-Worlds/"
+                "src": "CustomWorldGenerator*",
+                "dest": "plugins/CustomWorldGenerator/"
             }
         ]
     }

@@ -8,7 +8,7 @@
 // proj
 #include "Config/Config.h"
 
-namespace vid {
+namespace cwg {
 
 static std::unique_ptr<entry> instance;
 
@@ -18,11 +18,11 @@ bool entry::load() {
     // Code for loading the plugin goes here.
     auto& logger = getSelf().getLogger();
 
-    logger.info("Void-Worlds loding....");
+    logger.info("CustomWorldGenerator loding....");
     logger.info("Author: PPOUI");
     logger.info("Version: 1.0.0");
 
-    vid::config::load();
+    cwg::config::load();
     return true;
 }
 
@@ -38,6 +38,6 @@ bool entry::disable() {
     return true;
 }
 
-} // namespace vid
+} // namespace cwg
 
-LL_REGISTER_PLUGIN(vid::entry, vid::instance);
+LL_REGISTER_PLUGIN(cwg::entry, cwg::instance);

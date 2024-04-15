@@ -2,7 +2,7 @@
 
 #include "ll/api/plugin/NativePlugin.h"
 
-namespace vid {
+namespace cwg {
 
 class entry {
 
@@ -30,4 +30,4 @@ private:
     ll::plugin::NativePlugin& mSelf;
 };
 
-} // namespace vid
+} // namespace cwg

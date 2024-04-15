@@ -1,13 +1,13 @@
-# Void-Worlds
+# CustomWorldGenerator
 
-一款可自定义的世界生成器，适用于LeviLamina
+适用于LeviLamina的“自定义”世界生成器”
 
 ## 安装
 
 使用Lip一键安装
 
 ```bash
-lip install github.com/engsr6982/Void-Worlds
+lip install github.com/engsr6982/CustomWorldGenerator
 ```
 
 ## 配置使用

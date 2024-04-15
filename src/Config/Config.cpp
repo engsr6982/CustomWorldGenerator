@@ -8,12 +8,12 @@
 #include <ll/api/Config.h>
 
 
-namespace vid::config {
+namespace cwg::config {
 
 config::ConfigStructs config::cfg;
 
 bool config::load() {
-    auto& mSelf          = vid::entry::getInstance().getSelf();
+    auto& mSelf          = cwg::entry::getInstance().getSelf();
     auto  configFilePath = mSelf.getPluginDir() / "config.json";
     auto& logger         = mSelf.getLogger();
 
@@ -32,4 +32,4 @@ bool config::load() {
     return true;
 }
 
-} // namespace vid::config
+} // namespace cwg::config
