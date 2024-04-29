@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/engsr6982/CustomWorldGenerator",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "info": {
         "name": "CustomWorldGenerator",
         "description": "自定义世界生成器",
@@ -15,9 +15,9 @@
             "world"
         ]
     },
-    "asset_url": "https://github.com/engsr6982/CustomWorldGenerator/releases/download/v1.1.0/CustomWorldGenerator-windows-x64.zip",
+    "asset_url": "https://github.com/engsr6982/CustomWorldGenerator/releases/download/v1.2.0/CustomWorldGenerator-windows-x64.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "0.11.x"
+        "github.com/LiteLDev/LeviLamina": "0.12.x"
     },
     "files": {
         "place": [
